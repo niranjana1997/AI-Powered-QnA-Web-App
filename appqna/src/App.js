@@ -77,14 +77,14 @@ const App = () => {
               <input type="text" ref={refQuestion} className="form-control" id="question" name="q"/>
             </div>
             <div>
-              <button type="button" onClick={questionanswer} className="btn btn-outline-light text-dark">Submit</button>
+              <button type="button" onClick={questionanswer} className="button1">Submit</button>
             </div>
             {!hidden ? <p>Answer:</p> : null}
             <div className="answer">
             {/* Ternary check.  If there are any ans, mapping through each one of those. */}
             {answer ? answer.map((answer, idx) =><div><b>{idx+1}.</b> {answer.text} </div>) : ""}
             </div>
-             
+
           </form>
         }
       </header>

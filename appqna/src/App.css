@@ -31,13 +31,36 @@
   color: rgb(6, 0, 84);
   width: 100%;
   max-width: 100px;
-
 }
 
 .formCSS {
   max-width: 650px;
   min-width: 600px;
+  background-color: rgb(28, 31, 59);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
 }
+
+/* .btn:hover {
+  background-color: yellow;
+  color: rgb(120, 121, 131) !important;
+  text-decoration: none;
+} */
+  
+.button1 {
+  font-size: 20px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  background-color: white;
+  color: rgb(28, 31, 59);
+}
+
+.button1:hover {
+  background-color: rgba(255, 255, 255, 0.878); /* Green */
+  color: rgb(28, 31, 59);
+}
+
 .App-link {
   color: #61dafb;
 }
