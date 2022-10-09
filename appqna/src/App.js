@@ -19,6 +19,7 @@ const App = () => {
   const refQuestion = useRef(null);
   const [answer, setAnswer] = useState(); 
   const [model, setModel] = useState(null); 
+  const [hidden, setHidden] = useState(true);
 
   // Loading Tensorflow model
   const loadTFModel = async () => {
@@ -29,6 +30,7 @@ const App = () => {
 
   // Handling Questions
   const questionanswer = async (e) => {
+    setHidden(false);
     // checks if the model is loaded and if the user enters 'return' key on the keyboard
     if (model !== null) {
       console.log('Message: Question submitted');
@@ -65,22 +67,25 @@ const App = () => {
             width={100}/>
           </div> 
           :  
-          // If the mode is loaded
-          <div className="form-floating mb-3 mt-3">
-            Paragraph:
-            <textarea className="form-control" ref={refParagraph} rows="20" cols="60"></textarea>
-            Question:
-            <input className="form-control" ref={refQuestion} size="15"></input>
-            <br /> 
-            Answer:
-            <div className="answer">
-            {/* Ternary check.  If there are any ans, mapping through each one of those. */}
-            {answer ? answer.map((answer, idx) =><div><b>{idx+1}.</b> {answer.text} </div>) : ""}
+          <form className="formCSS">
+            <label for="paragraph">Paragraph</label>
+            <div className="input-group mb-3">
+              <textarea type="text" ref={refParagraph} className="form-control" id="paragraph" name="para" rows="15" cols="60"/>
+            </div>
+            <label for="question">Question</label>
+            <div className="input-group mb-3">
+              <input type="text" ref={refQuestion} className="form-control" id="question" name="q"/>
             </div>
             <div>
               <button type="button" onClick={questionanswer} className="btn btn-outline-light text-dark">Submit</button>
             </div>
-          </div>
+            {!hidden ? <p>Answer:</p> : null}
+            <div className="answer">
+            {/* Ternary check.  If there are any ans, mapping through each one of those. */}
+            {answer ? answer.map((answer, idx) =><div><b>{idx+1}.</b> {answer.text} </div>) : ""}
+            </div>
+             
+          </form>
         }
       </header>
     </div>

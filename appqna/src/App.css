@@ -29,8 +29,15 @@
   font-family: 'Times New Roman', Times, serif;
   font-size:small;
   color: rgb(6, 0, 84);
+  width: 100%;
+  max-width: 100px;
+
 }
 
+.formCSS {
+  max-width: 650px;
+  min-width: 600px;
+}
 .App-link {
   color: #61dafb;
 }
