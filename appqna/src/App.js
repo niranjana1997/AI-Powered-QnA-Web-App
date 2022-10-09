@@ -1,5 +1,7 @@
 import React, {useRef, useEffect, useState} from 'react';
 import './App.css';
+// import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Importing dependencies
 // 1. Importing Tensorflow JS
@@ -29,7 +31,7 @@ const App = () => {
   // Handling Questions
   const questionanswer = async (e) => {
     // checks if the model is loaded and if the user enters 'return' key on the keyboard
-    if (model !== null && e.which === 13) {
+    if (model !== null) {
       console.log('Message: Question submitted');
       // getting the question value
       const question = refQuestion.current.value;
@@ -59,7 +61,7 @@ const App = () => {
             </div>      
             <Vortex
             type="Puff"
-            color="#00BFFF"
+            color="blue"
             height={100}
             width={100}/>
           </div> 
@@ -67,13 +69,16 @@ const App = () => {
           // If the mode is loaded
           <Fragment>
             Paragraph:
-            <textarea ref={refParagraph} rows="30" cols="100"></textarea>
+            <textarea ref={refParagraph} rows="5" cols="50"></textarea>
             Question:
-            <input ref={refQuestion} onKeyPress={questionanswer} size="80"></input>
+            <input ref={refQuestion} size="15"></input>
             <br /> 
             Answer:
             {/* Ternary check.  If there are any ans, mapping through each one of those. */}
-            {answer ? answer.map((ans, idx) =><div><b>Answer {idx+1} - </b> {answer.text} ({Math.floor(answer.score*100)/100})</div>) : ""}
+            {answer ? answer.map((answer, idx) =><div><b>Answer {idx+1} - </b> {answer.text} ({Math.floor(answer.score*100)/100})</div>) : ""}
+            <div>
+              <button type="button" onClick={questionanswer} className="btn btn-outline-light text-dark">Submit</button>
+            </div>
           </Fragment>
         }
       </header>
