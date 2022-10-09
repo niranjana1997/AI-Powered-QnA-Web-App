@@ -10,7 +10,6 @@ import * as tf from "@tensorflow/tfjs";
 import * as qna from "@tensorflow-models/qna";
 
 import {Vortex} from "react-loader-spinner";
-import { Fragment } from 'react';
 
 
 const App = () => {
@@ -67,19 +66,21 @@ const App = () => {
           </div> 
           :  
           // If the mode is loaded
-          <Fragment>
+          <div className="form-floating mb-3 mt-3">
             Paragraph:
-            <textarea ref={refParagraph} rows="5" cols="50"></textarea>
+            <textarea className="form-control" ref={refParagraph} rows="20" cols="60"></textarea>
             Question:
-            <input ref={refQuestion} size="15"></input>
+            <input className="form-control" ref={refQuestion} size="15"></input>
             <br /> 
             Answer:
+            <div className="answer">
             {/* Ternary check.  If there are any ans, mapping through each one of those. */}
-            {answer ? answer.map((answer, idx) =><div><b>Answer {idx+1} - </b> {answer.text} ({Math.floor(answer.score*100)/100})</div>) : ""}
+            {answer ? answer.map((answer, idx) =><div><b>{idx+1}.</b> {answer.text} </div>) : ""}
+            </div>
             <div>
               <button type="button" onClick={questionanswer} className="btn btn-outline-light text-dark">Submit</button>
             </div>
-          </Fragment>
+          </div>
         }
       </header>
     </div>

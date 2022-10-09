@@ -14,14 +14,21 @@
 }
 
 .App-header {
-  background-color: rgb(2, 8, 44);
+  background-color: rgb(228, 229, 238);
+  font-family: 'Times New Roman', Times, serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(8px + 2vmin);
+  color: rgb(6, 0, 84);
+}
+
+.Answer {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:small;
+  color: rgb(6, 0, 84);
 }
 
 .App-link {
