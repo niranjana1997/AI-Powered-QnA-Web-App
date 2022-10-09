@@ -23,10 +23,13 @@ Paragraph: The Apollo Program — “The Apollo program, also known as Project A
 Question: 
 i) Which project put the first Americans into space?
 <img width="626" alt="Screen Shot 2022-10-09 at 4 49 46 PM" src="https://user-images.githubusercontent.com/89472841/194779231-15a673a2-f70d-4b0c-98c1-0a9e640b68c4.png">
+
 ii) What year did the first manned Apollo flight occur?
 <img width="626" alt="Screen Shot 2022-10-09 at 4 58 18 PM" src="https://user-images.githubusercontent.com/89472841/194779252-55a5edab-48b4-4591-b024-f08e5a787f07.png">
+
 iii) Who did the U.S. collaborate with on an Earth orbit mission in 1975?
 <img width="631" alt="Screen Shot 2022-10-09 at 4 58 47 PM" src="https://user-images.githubusercontent.com/89472841/194779260-ddcfef2b-4e87-4b4a-a2bb-bc0255fd1e84.png">
+
 iv) How long did Project Apollo run?
 <img width="631" alt="Screen Shot 2022-10-09 at 4 59 14 PM" src="https://user-images.githubusercontent.com/89472841/194779284-7a44a8fe-fc3f-401c-8dd0-695cb8fad259.png">
 
