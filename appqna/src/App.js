@@ -49,6 +49,9 @@ const App = () => {
   // To run the function loadTensorflowModel
   // [] runs the function loadTensorflowModel only once
   useEffect(()=>{loadTFModel()}, [])
+  useEffect(() => {
+    document.title = 'Question and Answer App';
+  });
 
   // 2. Setting up paragraph, question and answer area
   return (
