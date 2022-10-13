@@ -16,6 +16,12 @@ npm i @tensorflow/tfjs @tensorflow-models/qna react-loader-spinner bootstrap
 
 React App can be run using the command: npm start
 
+## UI Design:
+### Loading Page:
+<img width="1512" alt="Screen Shot 2022-10-13 at 7 41 21 PM" src="https://user-images.githubusercontent.com/89472841/195731449-7f75cb03-b2f4-4149-8960-0ccfb5978e51.png">
+### Question and Answer Page:
+<img width="1509" alt="Screen Shot 2022-10-13 at 7 41 50 PM" src="https://user-images.githubusercontent.com/89472841/195731487-4bd87540-f117-44ff-9588-c34328f3a233.png">
+
 ## Outputs
 1. Test Case 1:
 
@@ -23,20 +29,13 @@ Paragraph: The Apollo Program — “The Apollo program, also known as Project A
 
 Question: 
 i) Which project put the first Americans into space?
-
-<img width="626" alt="Screen Shot 2022-10-09 at 4 49 46 PM" src="https://user-images.githubusercontent.com/89472841/194779231-15a673a2-f70d-4b0c-98c1-0a9e640b68c4.png">
+<img width="1509" alt="Screen Shot 2022-10-13 at 7 43 44 PM" src="https://user-images.githubusercontent.com/89472841/195731541-971dcd27-896b-4883-800d-5588f8d85abb.png">
 
 ii) What year did the first manned Apollo flight occur?
-
-<img width="626" alt="Screen Shot 2022-10-09 at 4 58 18 PM" src="https://user-images.githubusercontent.com/89472841/194779252-55a5edab-48b4-4591-b024-f08e5a787f07.png">
+<img width="1509" alt="Screen Shot 2022-10-13 at 7 43 06 PM" src="https://user-images.githubusercontent.com/89472841/195731522-cf02c05d-4bb2-4828-8d5d-a904fcd32291.png">
 
 iii) Who did the U.S. collaborate with on an Earth orbit mission in 1975?
-
-<img width="631" alt="Screen Shot 2022-10-09 at 4 58 47 PM" src="https://user-images.githubusercontent.com/89472841/194779260-ddcfef2b-4e87-4b4a-a2bb-bc0255fd1e84.png">
+<img width="1509" alt="Screen Shot 2022-10-13 at 7 43 56 PM" src="https://user-images.githubusercontent.com/89472841/195731557-d84aadab-0ca1-41c6-b6fe-ce038e581030.png">
 
 iv) How long did Project Apollo run?
-
-<img width="631" alt="Screen Shot 2022-10-09 at 4 59 14 PM" src="https://user-images.githubusercontent.com/89472841/194779284-7a44a8fe-fc3f-401c-8dd0-695cb8fad259.png">
-
-
-
+<img width="1509" alt="Screen Shot 2022-10-13 at 7 44 06 PM" src="https://user-images.githubusercontent.com/89472841/195731581-643a2aea-4e6c-4137-be20-e1cc56f2e16e.png">
