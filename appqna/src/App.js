@@ -89,7 +89,7 @@ const App = () => {
             </div>
 
           </form>
-        }
+        } 
       </header>
     </div>
   );
