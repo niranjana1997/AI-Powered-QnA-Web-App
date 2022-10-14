@@ -19,7 +19,7 @@ React App can be run using the command: npm start
 ## UI Design:
 ### Loading Page:
 <img width="1512" alt="Screen Shot 2022-10-13 at 7 41 21 PM" src="https://user-images.githubusercontent.com/89472841/195731449-7f75cb03-b2f4-4149-8960-0ccfb5978e51.png">
-### Question and Answer Page:
+## Question and Answer Page:
 <img width="1509" alt="Screen Shot 2022-10-13 at 7 41 50 PM" src="https://user-images.githubusercontent.com/89472841/195731487-4bd87540-f117-44ff-9588-c34328f3a233.png">
 
 ## Outputs
