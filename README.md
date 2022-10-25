@@ -1,4 +1,4 @@
-# AI Powered QnA Web App
+# AI Powered Question_Answer Web App
 
 ## Description
 An AI powered Question & Answer web app created using Tensorflow.JS Bidirectional Encoder Representations from Transformers (BERT) and ReactJS.
